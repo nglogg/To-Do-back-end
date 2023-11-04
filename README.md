@@ -58,12 +58,14 @@ The service should now be running on `http://localhost:8080`.
 
 ### Logging
 
-The service uses SLF4J with Logback for logging. Logs are output to both the console and a log file located in the `logs` directory.
+The service uses SLF4J with Logback for logging. Logs are only output to the console.
 
 ### Testing
 
 The project contains both unit and integration tests. To run them, use:
-gradle test
+```bash
+./gradle test
+```    
 
 ### Contributing
 
